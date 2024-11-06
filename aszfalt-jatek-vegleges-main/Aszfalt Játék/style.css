@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    
+}
+.jatekmenet{
+padding: 15px;
+
+}
+.container{
+    box-shadow: 20px;
+    margin: 0px;
+    margin-left: 30px;
+    
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightskyblue;
+}
+.jatekmenet{
+    border: 3px solid black;
+    background-color: lightgreen;
+   
+}
+.cel{
+    margin-top: 20px;
+    border: 3px dotted orange;
+    background-color: lightcoral;
+    
+}
+.iranyitas{
+    border: 3px solid goldenrod;
+    background-color: burlywood;
+    margin-top: 20px;
+}
+.tablajatek{
+    float: right;
+    height: 300px;
+    width: 450px;
+    margin-top: -360px;
+}
+.tabla2{
+    float: right;
+    height: 300px;
+    width: 400px;
+}
+.navigalas{
+    margin-top: 20px;
+    background-color: yellowgreen;
+    border: 3px solid crimson;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+main{
+    flex-grow: 1; 
+    padding: 20px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    flex-shrink: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.foresz{
+    margin-top: 60px;
+}
+.kep1{
+    float: right;
+    width: 400px;
+}
+main{
+    flex-grow: 1;
+}

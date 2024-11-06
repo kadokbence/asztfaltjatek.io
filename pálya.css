@@ -1,0 +1,58 @@
+body{
+    background-color: khaki ;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.egesz{
+   padding: 17px;
+}
+.tablaszabaly{
+border: 5px solid darkblue;
+background-color: lightcyan;
+
+}
+.mezok{
+border: 5px solid darkseagreen;
+background-color: lightyellow;
+margin-top: 10px;
+}
+.tablaszabaly, p, h3{
+ 
+    
+}
+.mezok, p, h3{
+   
+}
+.fotabla{
+    height: 300px;
+    width: 700px;
+   
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1; 
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
